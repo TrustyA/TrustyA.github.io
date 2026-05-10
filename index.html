@@ -1,32 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ayden's Data Science Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayden | Data Science Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #111111;
+      color: #f2f2f2;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 25px;
+    }
+
+    header {
+      border-bottom: 1px solid #333;
+      padding-bottom: 30px;
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      margin-top: 45px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 8px;
+      color: #ffffff;
+    }
+
+    p {
+      color: #d0d0d0;
+    }
+
+    a {
+      color: #9ecbff;
+      text-decoration: none;
+      border-bottom: 1px solid #9ecbff;
+    }
+
+    a:hover {
+      color: #ffffff;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    .project-card {
+      border: 1px solid #333;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      background-color: #1a1a1a;
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: #ffffff;
+    }
+
+    footer {
+      margin-top: 60px;
+      border-top: 1px solid #333;
+      padding-top: 20px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
 </head>
 
 <body>
-    <h1>Ayden's Data Science Portfolio</h1>
+  <div class="container">
 
-    <h2>About</h2>
-    <p>
-        I am a data science graduate student interested in machine learning,
-        visualization, and practical analytics projects.
-    </p>
+    <header>
+      <h1>Ayden</h1>
+      <p>Data Science Portfolio | Machine Learning | Data Visualization | Analytics</p>
+      <p>
+        <a href="https://www.linkedin.com/in/ayden-trusty/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/trustya" target="_blank">GitHub</a>
+      </p>
+    </header>
 
-    <h2>Projects</h2>
+    <section>
+      <h2>About</h2>
+      <p>
+        I am building a data science portfolio focused on practical analysis,
+        visualization, and machine learning projects. My background includes
+        technology, troubleshooting, and data-focused coursework, which has helped
+        me develop a hands-on approach to solving problems.
+      </p>
+    </section>
 
-    <h3>Credit Default Risk Model</h3>
-    <p>
-        Machine learning project focused on predicting credit card default risk.
-    </p>
+    <section>
+      <h2>Projects</h2>
 
-    <h3>TSA Complaint Analysis</h3>
-    <p>
-        Visualization project analyzing airport complaint trends and patterns.
-    </p>
+      <div class="project-card">
+        <h3>Credit Default Risk Model</h3>
+        <p>
+          A machine learning project focused on predicting credit card default risk
+          using financial and demographic data.
+        </p>
+        <a href="https://github.com/TrustyA/DSC680_Portfolio/tree/main/DSC630/credit-default-risk-model" target="_blank">View Project</a>
+      </div>
 
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
+      <div class="project-card">
+        <h3>TSA Complaint Analysis</h3>
+        <p>
+          A visualization project analyzing TSA complaint trends by airport,
+          complaint category, and time period.
+        </p>
+        <a href="https://github.com/TrustyA/DSC680_Portfolio/tree/main/DSC640/tsa-complaint-analysis" target="_blank">View Project</a>
+      </div>
+    </section>
 
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Connect with me on
+        <a href="https://www.linkedin.com/in/ayden-trusty/" target="_blank">LinkedIn</a>.
+      </p>
+    </section>
+
+    <footer>
+      <p>© 2026 Ayden</p>
+    </footer>
+
+  </div>
 </body>
 </html>
